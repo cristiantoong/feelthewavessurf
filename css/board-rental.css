@@ -1,0 +1,174 @@
+@import url("resets-navbar-footer.css");
+
+
+/* ------------------ HEADER ------------------ */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 80vh;
+}
+
+header .info-left {
+  width: 60%;
+
+  height: 100%;
+  -webkit-box-shadow: 10px 10px 25px -15px rgba(0,0,0,0.45);
+  -moz-box-shadow: 10px 10px 25px -15px rgba(0,0,0,0.45);
+  box-shadow: 10px 10px 25px -15px rgba(0,0,0,0.45);
+}
+
+header .info-left .hero-header {
+  background: url('../img/1/board-rental.jpeg') center center/cover no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+header .info-right {
+  padding-top: 6rem;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+}
+
+header .info-right p {
+  padding-left: 12rem;
+  width: 100%;
+}
+
+
+
+/* ------------------ SOFT SURFBOARD ------------------ */
+#soft-surfboard{
+  min-height: 50vh;
+}
+#soft-surfboard .container .infos {
+  display: flex;
+  justify-content: space-between;
+}
+#soft-surfboard .container .infos .left-info {
+  width: 44.44%;
+  height: 100%;
+}
+
+#soft-surfboard .container .infos .left-info p.lead {
+  margin-bottom: 30px;
+
+}
+
+#soft-surfboard .container .infos .right-info {
+  width: 44.44%;
+  height: 100%;
+  position: relative;
+}
+
+#soft-surfboard .container .infos .right-info h4 {
+  position: absolute;
+  right: 30%;
+  bottom: 25%;
+  font-style: italic;
+  color: #918f8f;
+}
+
+/* ------------------ LONGBOARD SHORTBOARD ------------------ */
+#longboard-shortboard{
+  min-height: 60vh;
+}
+#longboard-shortboard .container {
+  text-align: right;
+}
+#longboard-shortboard .container p.main {
+  width: 76%;
+  margin-left: 16rem;
+  text-align: justify
+}
+#longboard-shortboard .container .infos {
+  display: flex;
+}
+
+#longboard-shortboard .container .infos .left-info {
+  width: 44.44%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-bottom: 3rem;
+  margin-right: 2rem;
+}
+#longboard-shortboard .container .infos .left-info img{
+  margin-right: 3rem;
+}
+#longboard-shortboard .container .infos .left-info img:nth-child(3){
+  padding-left: 15px;
+}
+
+#longboard-shortboard .container .infos .left-info h4 {
+  position: absolute;
+  font-style: italic;
+  color: #918f8f;
+}
+
+#longboard-shortboard .container .infos .left-info h4.lb {
+  left: 8%;
+  bottom: 3%;
+}
+
+#longboard-shortboard .container .infos .left-info h4.fb {
+  left: 48%;
+  bottom: 8%;
+}
+
+#longboard-shortboard .container .infos .left-info h4.sb {
+  left: 82%;
+  bottom: 20%;
+}
+
+
+#longboard-shortboard .container .infos .right-info {
+  width: 48%;
+  margin-left: 4rem;
+  text-align: justify;
+}
+
+#longboard-shortboard .container .infos .right-info .lead {
+  margin-bottom: 30px;
+}
+
+
+
+/* ------------------ BOOGIE BOARD ------------------ */
+#boogieboard{
+  min-height: 50vh;
+}
+#boogieboard .container .infos {
+  display: flex;
+  justify-content: space-between;
+}
+#boogieboard .container .infos .left-info {
+  width: 44.44%;
+}
+
+#boogieboard .container .infos .left-info p.lead {
+  margin-bottom: 30px;
+
+}
+
+#boogieboard .container .infos .right-info {
+  width: 44.44%;
+  height: 450px;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+#boogieboard .container .infos .right-info img {
+  height: 100%;
+}
+
+#boogieboard .container .infos .right-info h4 {
+  position: absolute;
+  right: 54%;
+  bottom: 0%;
+  font-style: italic;
+  color: #918f8f;
+}

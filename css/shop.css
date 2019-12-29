@@ -1,0 +1,213 @@
+@import url("resets-navbar-footer.css");
+
+
+/* ------------------ HEADER ------------------ */
+
+
+
+/* ------------------ SHOP / SURFBOARDS ------------------ */
+
+#shop .shop-container {
+  position: relative;
+}
+
+#shop .shop-container .main-heading {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+#shop .shop-container .surfboards {
+  display: flex;
+  /* justify-content: space-between; */
+  max-width: 1100px;
+  height: 700px;
+  padding-top: 20rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 10rem;
+}
+
+#shop .shop-container .next-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0%;
+  top: 66%;
+}
+
+#shop .shop-container .back-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 66%;
+}
+#shop .shop-container .next-btn:hover,
+#shop .shop-container .back-btn:hover {
+  cursor: pointer;
+}
+
+#shop .shop-container .surfboards a {
+  width: 300px!important;
+  height: 305px!important;
+  background: #eef3f4;
+  position: relative;
+  margin-left: 5rem;
+}
+
+#shop .shop-container .surfboards .surfboard-1 .sb-img {
+  position: absolute;
+  top: -17rem;
+  right: 1rem;
+}
+
+#shop .shop-container .surfboards .surfboard-1 .sb-info {
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+}
+
+#shop .shop-container .surfboards .surfboard-1 .sb-info p:nth-child(1) {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+#shop .shop-container .surfboards .surfboard-1 .price {
+  position: absolute;
+  bottom: -2rem;
+  right: 1rem;
+  width: 100px;
+  height: 50px;
+  background: #19aea5;
+  color: #fff;
+  text-align: center;
+}
+
+/* ------------------ CLOTHING ------------------ */
+#clothing {
+  padding-top: 4rem;
+}
+
+#clothing .shop-container {
+  position: relative;
+}
+
+#clothing .shop-container .main-heading {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+#clothing .shop-container .clothes {
+  display: flex;
+  max-width: 1100px;
+  height: 500px;
+  padding-top: 5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+  
+}
+
+#clothing .shop-container .next-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0%;
+  top: 66%;
+}
+
+#clothing .shop-container .back-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  top: 66%;
+}
+#clothing .shop-container .next-btn:hover,
+#clothing .shop-container .back-btn:hover {
+  cursor: pointer;
+}
+
+#clothing .shop-container .clothes  .clothe-1 {
+  width: 300px!important;
+  height: 305px!important;
+  background: #eef3f4;
+  position: relative;
+  margin-left: 5rem;
+}
+
+#clothing .shop-container .clothes .clothe-1 .c-img {
+  position: absolute;
+  top: 1rem;
+  right: 0rem;
+  width: 200px;
+  height: 200px;
+}
+
+#clothing .shop-container .clothes .clothe-1 .c-info {
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+}
+
+#clothing .shop-container .clothes .clothe-1 .c-info p:nth-child(1) {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+#clothing .shop-container .clothes .clothe-1 .price {
+  position: absolute;
+  bottom: -2rem;
+  right: 1rem;
+  width: 100px;
+  height: 50px;
+  background: #19aea5;
+  color: #fff;
+  text-align: center;
+}
+
+.cont .glid .card {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+/* ------------------ MODAL ------------------ */
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal {
+  background: #fff;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

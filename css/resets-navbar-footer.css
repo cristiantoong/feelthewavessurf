@@ -1,0 +1,256 @@
+/* -- RESETS -- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800|Playfair+Display:400,400i,700,700i,900,900i&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Open Sans', sans-serif;
+  color: #0b0d11;
+}
+
+a {
+  color: #0b0d11;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p{
+  margin: 10px 0;
+  line-height: 2;
+}
+
+/* -- COLORS -- */
+/* headings/paragraphs: #0b0d11;
+company name: #99bcda;
+paragraphs: #918f8f, #a8a8a8;
+links, borders and prominent text:  #19aea5
+prominent text (about section): #ff5c47;
+bg of products: #eef3f4;
+*/
+
+/* ---------- UTILITIES ---------- */
+
+#header-2 {
+  background: #333 url("../img/main- hero-header.png") no-repeat center bottom/cover;
+  width: 100%;
+  height: 90vh;
+}
+
+section {
+  padding-top: 8rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.shop-container {
+  margin: 0 auto!important;
+  width: 1200px!important;
+  overflow: hidden;
+  /* padding: 0 20px; */
+}
+
+
+.text-green {
+  color: #19aea5;
+  margin-bottom: 0;
+}
+
+.text-highlight {
+  color: #ff5c47;
+}
+
+.main-heading {
+  font-size: 5.5rem;
+  font-family: 'Playfair Display', serif;
+  color: #0b0d11;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  font-size: 3.8rem;
+  font-family: 'Playfair Display', serif;
+  color: #0b0d11;
+  letter-spacing: .05em;
+  padding-bottom: 3.75rem;
+}
+
+.sub-heading-2 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.sub-heading-3 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sub-heading-4 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: center;
+}
+.lead {
+ color: #918f8f;
+ font-size: 1.10rem;
+}
+
+
+/* ------------------ NAV ------------------ */
+.burger {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 5rem;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background: #0b0d11;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+
+
+#logo {
+  padding-right: 5rem;
+}
+#logo img {
+  width: 100px;
+  height:100px;
+}
+
+#navbar {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  /* padding: 10px 0; */
+}
+
+#navbar  #main-navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 40px;
+  /* position: relative; */
+}
+
+
+#navbar  #main-navbar .main-nav {
+  align-items: center;
+  /* right: 58%;
+  top: 40px; */
+  /* position: absolute; */
+  /* padding-right: 66rem; */
+  margin-left: 10rem;
+  display: flex;
+}
+
+#navbar  #main-navbar .main-nav li {
+  list-style: none;
+  margin-right: 50px;
+  font-weight: 700;
+  font-size: 1rem;
+
+}
+
+#navbar  #main-navbar .main-nav li a {
+  text-decoration: none;
+  color: #0b0d11;
+}
+
+/* ------------------ NAV  2------------------ */
+#logo {
+  padding-right: 5rem;
+}
+#logo img {
+  width: 100px;
+  height:100px;
+}
+
+#navbar-2 {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  /* padding: 10px 0; */
+}
+
+#navbar-2   #main-navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 40px;
+  /* position: relative; */
+}
+
+
+#navbar-2   #main-navbar #main-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar-2   #main-navbar #main-nav li {
+  list-style: none;
+  margin-right: 50px;
+  font-weight: 700;
+  font-size: 1rem;
+
+}
+
+#navbar-2   #main-navbar #main-nav li a {
+  text-decoration: none;
+  color: #0b0d11;
+}
+
+/* ------------------ FOOTER ------------------ */
+
+#footer {
+  text-align: center;
+  padding-bottom: 8rem;
+  min-height: 40vh;
+}
+
+#footer .social-icons {
+  margin-bottom: 50px;
+}
+
+#footer .social-icons a {
+  margin-left: 20px;
+}
+#footer .social-icons a i {
+  font-size: 1.5rem;
+}

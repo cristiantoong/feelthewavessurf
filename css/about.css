@@ -1,0 +1,38 @@
+@import url("resets-navbar-footer.css");
+
+#about .container h1 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+#about .container h3 {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.20rem;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+}
+#about .container .para-1,
+#about .container .para-2  {
+  width: 68%;
+  text-align: justify;
+  margin-left: 11rem;
+}
+
+#about .container p {
+  width: 100%;
+  font-size: 1.10rem;
+  margin-bottom: 2rem;
+}
+
+#about .container .about-img {
+  width: 76%;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+#about .container img {
+  width: 100%;
+  height: 100%;
+
+}

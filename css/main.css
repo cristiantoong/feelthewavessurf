@@ -1,0 +1,165 @@
+@import url("resets-navbar-footer.css");
+
+
+/* ------------------ HEADER ------------------ */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 80vh;
+}
+header .info-left {
+  padding-left: 4rem;
+  padding-top: 6rem;
+  width: 60%;
+  height: 100%;
+}
+
+header .info-left span.company-name {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: .2em;
+  color: #99bcda;
+  
+}
+
+header .info-right {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  z-index: -99;
+  -webkit-box-shadow: -8px 10px 44px -24px rgba(0,0,0,0.84);
+  -moz-box-shadow: -8px 10px 44px -24px rgba(0,0,0,0.84);
+}
+
+header .info-right .hero-header {
+  background: url('../img/1/main- hero-header.jpeg') center center/cover no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+/* ------------------ LEARN SURF CHILL ------------------ */
+#learn-surf-chill {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#learn-surf-chill .info-left {
+  background: #333 url('../img/1/surf-learn-chill.jpeg') no-repeat center center/cover;
+  height: 700px;
+  width: 600px;
+}
+
+#learn-surf-chill .info-right {
+  height: 700px;
+  width: 600px;
+  padding-top: 150px;
+}
+
+#learn-surf-chill .info-right p.quote {
+  font-size: 1.4rem;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 1.5rem;
+}
+
+/* ------------------ LESSONS ------------------ */
+#lessons {
+  min-height: 100vh;
+}
+
+#lessons .sub-heading {
+  text-align: center;
+}
+
+#lessons .lessons-col {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#lessons .lesson {
+  width: 400px;
+}
+
+#lessons .lesson .info {
+  text-align: center;
+}
+
+#lessons .lesson .lesson-img {
+  height: 300px;
+}
+
+#lessons .lesson .lesson-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#lessons .lesson h3 {
+  padding-top: 40px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+#lessons .lesson p {
+  color: #918f8f;
+}
+
+#lessons .lesson  .btn-green {
+  display: inline-block;
+  padding-left: 2px;
+  width: 200px;
+  margin-left: 0;
+  color: #19aea5;
+  font-weight: 600;
+}
+
+#lessons .lesson .underline {
+  width: 99px;
+  height: 5px;
+  background: #19aea5;
+  margin-top: 4px;
+}
+
+/* ------------------ SUBSCRIBE ------------------ */
+#subscribe {
+  text-align: center;
+  min-height: 50vh;
+}
+
+#subscribe .container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#subscribe .container input[type=email] {
+  width: 400px;
+  padding: 15px 10px;
+  outline: none;
+  margin-bottom: 10px;
+  color: #918f8f;
+  font-size: 1.1rem;
+}
+
+#subscribe .container input[type=submit] {
+  width: 100px;
+  height: 54px;
+  padding: 15px 10px;
+  background: #0b0d11;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+}
+
+#subscribe .container input[type=submit]:hover {
+  cursor: pointer;
+}
+
+

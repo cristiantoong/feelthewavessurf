@@ -1,0 +1,78 @@
+@import url("resets-navbar-footer.css");
+
+#contact .container h1 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+#contact .container .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact .container .info .info-left {
+  width: 35%;
+}
+
+#contact .container .info .info-right {
+  width: 60%;
+  display: flex;
+}
+
+#contact .container .info .info-right form {
+  width: 100%;
+  display: block;
+}
+#contact .container .info .info-right form .form-1 {
+  display: flex;
+  justify-content: space-between;
+}
+#contact .container .info .info-right form .form-1 input,
+#contact .container .info .info-right form .form-2 input {
+  width: 48%;
+  height: 3rem;
+  margin-bottom: 1rem;
+  padding: 15px 10px;
+  outline: none;
+  color: #918f8f;
+  font-size: 1.1rem;
+  
+}
+
+#contact .container .info .info-right form .form-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#contact .container .info .info-right form .form-2 input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#contact .container .info .info-right form .form-2 textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 15px 10px;
+  outline: none;
+  color: #918f8f;
+  font-size: 1.1rem;
+  resize: none;
+}
+
+#contact .container .info .info-right form .form-2 input[type='submit'] {
+  width: 30%;
+  height: 54px;
+  padding: 15px 10px;
+  background: #0b0d11;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+}
+
+#contact .container .info .info-right form .form-2 input[type='submit']:hover {
+  cursor: pointer;
+}
