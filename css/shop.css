@@ -1,10 +1,6 @@
 @import url("resets-navbar-footer.css");
 
 
-/* ------------------ HEADER ------------------ */
-
-
-
 /* ------------------ SHOP / SURFBOARDS ------------------ */
 
 #shop .shop-container {
@@ -13,7 +9,7 @@
 
 #shop .shop-container .main-heading {
   text-align: center;
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 
 #shop .shop-container .surfboards {
