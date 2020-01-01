@@ -16,11 +16,15 @@ header .info-left {
   height: 100%;
 }
 
+header .info-left p.lead{
+  height: 80%;
+}
+
 header .info-left span.company-name {
   font-family: 'Playfair Display', serif;
   letter-spacing: .2em;
   color: #99bcda;
-  
+
 }
 
 header .info-right {
@@ -161,5 +165,3 @@ header .info-right .hero-header {
 #subscribe .container input[type=submit]:hover {
   cursor: pointer;
 }
-
-

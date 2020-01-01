@@ -39,7 +39,7 @@ bg of products: #eef3f4;
 /* ---------- UTILITIES ---------- */
 
 #header-2 {
-  background: #333 url("../img/main- hero-header.png") no-repeat center bottom/cover;
+  background: #333 url("../img/main-hero-header.png") no-repeat center 85%/cover;
   width: 100%;
   min-height: 80vh;
 }
@@ -124,6 +124,7 @@ section {
   cursor: pointer;
   position: absolute;
   right: 5rem;
+  
 }
 .burger div {
   width: 25px;
@@ -139,6 +140,7 @@ section {
   position: absolute;
   right: 5rem;
   top: 2rem;
+  margin-bottom: 2rem;
 }
 .burger2 div {
   width: 25px;
@@ -181,10 +183,6 @@ section {
 
 #navbar  #main-navbar .main-nav {
   align-items: center;
-  /* right: 58%;
-  top: 40px; */
-  /* position: absolute; */
-  /* padding-right: 66rem; */
   margin-left: 10rem;
   display: flex;
 }
@@ -218,7 +216,6 @@ section {
   position: sticky;
   top: 0;
   z-index: 99;
-  /* padding: 10px 0; */
 }
 
 #navbar-2   #main-navbar {
@@ -228,7 +225,6 @@ section {
   margin: 0 auto;
   background: #fff;
   padding: 0 40px;
-  /* position: relative; */
 }
 
 
@@ -240,10 +236,9 @@ section {
 
 #navbar-2   #main-navbar .main-nav-2 li {
   list-style: none;
-  margin-right: 50px;
   font-weight: 700;
   font-size: 1rem;
-
+  margin-left: 4rem;
 }
 
 #navbar-2   #main-navbar .main-nav-2 li a {

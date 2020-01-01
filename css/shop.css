@@ -3,6 +3,12 @@
 
 /* ------------------ SHOP / SURFBOARDS ------------------ */
 
+#shop-header {
+  background: #333 url("../img/main-hero-header.png") no-repeat center 85%/cover;
+  width: 100%;
+  min-height: 80vh;
+}
+
 #shop .shop-container {
   position: relative;
 }

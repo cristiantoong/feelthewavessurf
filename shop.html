@@ -13,16 +13,16 @@
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body id="shop">
+<body id="shop-main">
   <!-- --- NAVBAR --- -->
   <nav id="navbar-2">
     <div id="main-navbar">
         <div id="logo"><img src="img/logo.svg" alt=""></div>
         <ul class="main-nav-2">
           <li><a href="index.html#home">SURF</a></li>
-          <li><a href="shop.html">SHOP</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="shop.html#shop">SHOP</a></li>
+          <li><a href="about.html#about">ABOUT</a></li>
+          <li><a href="contact.html#contact">CONTACT</a></li>
           <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
         </ul>
         <div class="burger2">
@@ -35,7 +35,7 @@
 
 
   <!----- HERO HEADER ----->
-  <header id="header-2"></header>
+  <header id="shop-header"></header>
 
    <!----- SHOP ----->
  <section id="shop">
@@ -221,6 +221,26 @@
         slidesToScroll: 3,
         prevArrow: $('.slick-prev'),
         nextArrow: $('.slick-next'),
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          }
+        ]
 
       });
 
@@ -232,7 +252,20 @@
       arrows: {
         prev: '.glider-prev',
         next: '.glider-next'
-      }
+      },
+      responsive: [
+        {
+          // screens greater than >= 775px
+          breakpoint: 768,
+          settings: {
+            // Set to `auto` and provide item width to adjust to viewport
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            itemWidth: 150,
+            duration: 0.25
+          }
+        }
+      ]
     });
 
     
