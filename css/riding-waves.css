@@ -32,7 +32,7 @@ header .info-left {
 }
 
 header .info-left .hero-header {
-  background: url('../img/1/surf5.jpg') center center/cover no-repeat;
+  background: url('../img/surf5.jpg') center center/cover no-repeat;
   height: 100%;
   width: 100%;
 }
@@ -88,22 +88,22 @@ header .info-left .hero-header {
 }
 
 #instructors .container .instructors .instructor-1 .instructor-img {
-  background: #333 url("../img/1/cristian.jpeg") no-repeat center center/cover;
+  background: #333 url("../img/cristian.jpg") no-repeat center center/cover;
   height: 400px;
 }
 
 #instructors .container .instructors .instructor-2 .instructor-img {
-  background: #333 url("../img/1/kellin.jpeg") no-repeat center right/cover;
+  background: #333 url("../img/kellin.jpg") no-repeat center right/cover;
   height: 400px;
 }
 
 
 #instructors .container .instructors .instructor-3 .instructor-img {
-  background: #333 url("../img/1/victor.png") no-repeat center center/cover;
+  background: #333 url("../img/victor.jpg") no-repeat center center/cover;
   height: 400px;
 }
 
 #instructors .container .instructors .instructor-4 .instructor-img {
-  background: #333 url("../img/1/duckett.jpeg") no-repeat center center/cover;
+  background: #333 url("../img/duckett.jpg") no-repeat center center/cover;
   height: 400px;
 }

@@ -38,7 +38,7 @@ header .info-right {
 }
 
 header .info-right .hero-header {
-  background: url('../img/1/main- hero-header.jpeg') center center/cover no-repeat;
+  background: url('../img/main- hero-header.jpg') center center/cover no-repeat;
   height: 100%;
   width: 100%;
 }
@@ -53,7 +53,7 @@ header .info-right .hero-header {
 }
 
 #learn-surf-chill .info-left {
-  background: #333 url('../img/1/surf-learn-chill.jpeg') no-repeat center center/cover;
+  background: #333 url('../img/surf-learn-chill.jpg') no-repeat center center/cover;
   height: 700px;
   width: 600px;
 }
